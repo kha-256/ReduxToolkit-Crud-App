@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { DeleteAllUser } from "./DeleteAllUser ";
+import DeleteAllUser from "./DeleteAllUser ";
 import { fakeUserData } from "../api";
 import { useDispatch } from "react-redux";
 import { addUser } from "../store/slice/UserSlice";
@@ -38,18 +38,21 @@ const Wrapper = styled.section`
     list-style-type: none !important;
     display: flex;
     flex-direction: column;
+    width:97%
   }
 
   h3 {
     margin: 0;
   }
 
+
   .admin-table {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 2rem 0;
-    align-item:center
+    align-item:center;
+
   }
 
   .admin-subtitle {
