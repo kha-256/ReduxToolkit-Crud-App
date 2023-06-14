@@ -25,7 +25,7 @@ dispatch(addUser(payload));
           <DisplayUsers/>
         </ul>
         <hr />
-        <DeleteAllUser />
+        <DeleteAllUser/>
       </div>
     </Wrapper>
   );
