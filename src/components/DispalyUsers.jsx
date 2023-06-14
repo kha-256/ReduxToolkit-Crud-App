@@ -17,7 +17,7 @@ const DisplayUsers = () => {
   return (
     <Wrapper>
      {data.map((user,id)=>{
-        return <li>
+        return <li key={id}>
             {user}
             <button className="btn-delete" onClick={()=> deleteUser(id)}>
             <DeleteForeverIcon sx={{color:'red', fontSize:20, cursor:"pointer"}} />
