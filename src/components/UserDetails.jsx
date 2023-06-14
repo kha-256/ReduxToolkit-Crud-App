@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import DeleteAllUser from "./DeleteAllUser ";
+import DeleteAllUser from "./DeleteAllUser";
 import { fakeUserData } from "../api";
 import { useDispatch } from "react-redux";
 import { addUser } from "../store/slice/UserSlice";
